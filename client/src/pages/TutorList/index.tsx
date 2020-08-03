@@ -1,26 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import './styles.css';
 
-import logo from '../../assets/images/logo.svg';
-import { Back } from '../../assets/images/icons';
+import { PageHeader, TutorItem } from '../../components';
 
 function TutorList() {
   return (
     <div id='page-tutor-list' className='container'>
-      <header className='page-header'>
-        <div className='top-bar-container'>
-          <Link to='/'>
-            <img src={Back} alt='Back' />
-          </Link>
-          <img src={logo} alt='Proffy' />
-        </div>
+      <PageHeader title='These are the Proffys available'>
+        <form id='search-tutors'>
+          <div className='input-block'>
+            <label htmlFor='subject'>Subject</label>
+            <input type='text' id='subject' />
+          </div>
 
-        <div className='header-content'>
-          <strong>These are the Proffys available</strong>
-        </div>
-      </header>
+          <div className='input-block'>
+            <label htmlFor='week_day'>Week Day</label>
+            <input type='text' id='week_day' />
+          </div>
+
+          <div className='input-block'>
+            <label htmlFor='time'>Time</label>
+            <input type='text' id='time' />
+          </div>
+        </form>
+      </PageHeader>
+
+      <main>
+        <TutorItem />
+      </main>
     </div>
   );
 }
