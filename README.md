@@ -26,7 +26,7 @@
 
 ## 💻 Project
 
-Proffy is a Online learning Platform
+Proffy is a Online learning Platform. This project was created based on Mobile-First Approach
 
 ## :rocket: Technologies
 

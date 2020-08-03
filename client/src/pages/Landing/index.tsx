@@ -24,7 +24,7 @@ const Landing = () => {
           </a>
 
           <a href='#' className='study'>
-            <img src={GiveClasses} alt='Study' /> Study
+            <img src={GiveClasses} alt='giveclasses' /> Be a Tutor
           </a>
         </div>
 
