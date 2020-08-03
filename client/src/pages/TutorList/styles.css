@@ -48,7 +48,7 @@
 
 @media (min-width: 700px) {
   #page-tutor-list {
-    max-width: 100%;
+    min-width: 100%;
   }
 
   #search-tutors {
