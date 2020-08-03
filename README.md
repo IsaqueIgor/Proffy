@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./web/src/assets/images/logo.svg" width="250px" />
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./client/src/assets/images/logo.svg" width="250px" />
 </h1>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/IsaqueIgor/Proffy?color=%2304D361">
