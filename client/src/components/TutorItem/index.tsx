@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Whatsapp } from '../../assets/images/icons';
+import { Whatsapp, Star } from '../../assets/images/icons';
 
 import './styles.css';
 
@@ -10,7 +10,13 @@ const TutorItem: React.FC = (props) => {
       <header>
         <div>
           <strong>Isaque Igor</strong>
-          <span>German</span>
+          <ul className='subject-ratings'>
+            <li className='subject'>German</li>
+            <li>
+              <img className='rating' src={Star} alt='rating' />
+            </li>
+            <li>5</li>
+          </ul>
         </div>
       </header>
 

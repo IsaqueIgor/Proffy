@@ -27,6 +27,36 @@
   margin-left: 2.4rem;
 }
 
+.subject-ratings {
+  margin-top: 1rem;
+  padding: 0px;
+}
+
+.subject-ratings li {
+  font-size: 1.6rem;
+  color: var(--color-text-title);
+  width: auto;
+  display: block;
+  float: left;
+  margin-right: 6px;
+}
+
+.subject-ratings .subject {
+  background: var(--color-text-complement);
+  border-radius: 10px;
+  padding: 3px 8px;
+  font-size: 14px;
+  margin-right: 4px;
+  line-height: 1.6rem;
+  cursor: pointer;
+}
+
+.subject-ratings .rating {
+  border: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .tutor-item header div strong {
   font: 700 2.4rem Archivo;
   display: block;

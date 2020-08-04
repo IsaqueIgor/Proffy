@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/Logo.png" width="250px" />
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
 </h1>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/IsaqueIgor/Proffy?color=%2304D361">
@@ -41,14 +41,12 @@ This project was developed with the following technologies:
 ## 🔖 Layout
 
 <p align="center">
-  <img alt="Layout" title="#Layout" src=".github/layout1.png" width="500px" />
+  <img alt="Layout" title="#Layout" src=".github/layout.png" width="100%" />
 </p>
 
-## 🔖 Layout Mobile
-
-<p align="center">
-  <img alt="Layout" title="#Layout" src=".github/layoutmobile.png" width="500px" />
-</p>
+- <div style="display:flex;align-items:center;">
+     <img src="https://img.shields.io/badge/-Figma-rebeccapurple?&logo=Figma&logoColor=white&link=https://www.notion.so/Layout-Proffy-3d5f45f54ec54ef9b2103565b7cce4e1)" style="margin-left:8px;"/>
+  </div>
 
 ## :information_source: How To Use
 
@@ -71,6 +69,7 @@ This project is under the MIT license. See the [LICENSE](LICENSE.md) for details
 
 Made with ♥ by Isaque Igor :wave: [Get in touch!](https://www.linkedin.com/in/isaqueigor/)
 
+[figma]: https://www.notion.so/Layout-Proffy-3d5f45f54ec54ef9b2103565b7cce4e1
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
 [expo]: https://expo.io/

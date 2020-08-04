@@ -28,6 +28,10 @@ function TutorList() {
 
       <main>
         <TutorItem />
+        <TutorItem />
+        <TutorItem />
+        <TutorItem />
+        <TutorItem />
       </main>
     </div>
   );
