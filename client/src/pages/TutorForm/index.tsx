@@ -16,24 +16,20 @@ function TutorForm() {
       <main>
         <fieldset>
           <legend>Your Information</legend>
-          <Input name='name' label='Nome Completo' />
-          <Input name='avatar' label='Avatar' />
+          <Input name='name' label='Full Name' />
+          <Input name='avatar' label='Avatar (URL)' />
           <Input name='whatsapp' label='Whatsapp' />
-          <TextArea name='bio' label='Biografia' />
+          <TextArea name='bio' label='About you' />
         </fieldset>
 
-        <div className='input-block'>
-          <label htmlFor='name'>Full Name</label>
-          <input type='text' id='name' />
-        </div>
-        <div className='input-block'>
-          <label htmlFor='avatar'>Avatar</label>
-          <input type='text' id='avatar' />
-        </div>
-        <div className='input-block'>
-          <label htmlFor='whatsapp'>WhatsApp</label>
-          <input type='text' id='whatsapp' />
-        </div>
+        <footer>
+          <p>
+            <img src={Warning} alt='Important Warining' />
+            Please ! <br />
+            Fill in all required fields
+          </p>
+          <button type='button'>Register</button>
+        </footer>
       </main>
     </div>
   );
